@@ -1,0 +1,475 @@
+.text1{
+    font-size: 60px;
+}
+.main1{
+    background-image: url(assest/img/hero-bg.jpg);
+    width: 100%;
+    height:auto;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+.ovrelay {
+    background-color: rgba(41, 39, 34, 0.30);
+    width: 100%;
+    height: auto;
+}
+.text2{
+    font-size: 60px;
+    color: white;
+    padding-top: 250px;
+}
+.text3{
+    font-size: 60px;
+    color: white;
+}
+.text4{
+    font-size: 40px;
+    color: aliceblue;
+}
+.icon {
+    color: #ffbb38;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.div1 {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #ffbb38;
+    background: none;
+    padding: 50px;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+
+.div1:hover {
+    border: 1px solid #ffbb38;
+}
+.text5{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+
+.text5:hover {
+    color: #ffbb38;
+}
+.text6{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    /* text-align: center; */
+    color: white;
+}
+.main3{
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+.img2 {
+    width: 100%;
+    object-fit: cover;
+}
+.icon1 {
+    font-size: 35px;
+    color: #ffbb38;
+}
+.div3 {
+    display: flex;
+    margin: 10px;
+}
+.div4 {
+    padding-left: 15px;
+}
+.text6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.div15 h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+}
+
+.text7 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.text8 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+}
+.div5 {
+    border: 1px solid #ebebeb;
+    padding: 50px;
+    transition: all .3s;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.div5:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.icon2 {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    font-size: 25px;
+    background: #ffc451;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.text9 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    transition: all .3s;
+}
+
+.text9:hover {
+    color: #ffc451;
+}
+.main5 {
+    padding-top: 30px;
+}
+.main6 {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(assest/img/cta-bg.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text10 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+.btn1 {
+    background: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #ffc451;
+    color: #fff;
+}
+
+.btn1:hover {
+    border: 2px solid #ffc451;
+    background-color: #ffc451;
+    color: rgb(70, 70, 70);
+}
+.abc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.div15 h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+}
+.text7 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text8 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+}
+.img3:hover {
+    filter: brightness(0.7);
+    transition: all 500ms;
+}
+.text11 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #151515;
+    font-family: "Raleway", sans-serif;
+}
+.div6 {
+    display: flex;
+    margin-top: 50px;
+}
+.div8 {
+    padding-left: 30px;
+}
+.icon3 {
+    color: #ffc451;
+    font-size: 35px;
+}
+.div9 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main9 {
+    background: linear-gradient(rgba(2, 2, 2, 0.35), rgba(0, 0, 0, 0.35)), url(assest/img/testimonials-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.img4 {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+    border: 6px solid gray;
+}
+.text12 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+}
+
+.text13 {
+    font-size: 14px;
+    color: #ddd;
+    font-family: "Raleway", sans-serif;
+}
+
+.text14 {
+    font-style: italic;
+    margin: auto;
+    color: #eee;
+    max-width: 900px;
+}
+.div15 h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+}
+
+.text7 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.text8 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+}
+.div10 {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.img5 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.div11 {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.text15 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #151515;
+    font-family: "Raleway", sans-serif;
+}
+.div14 {
+    display: flex;
+}
+.icon4 {
+    font-size: 20px;
+    background: #ffc451;
+    color: #151515;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.text16 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #151515;
+}
+
+.div13 {
+    padding-left: 15px;
+}
+.icon5{
+    font-size: 20px;
+    background: #ffc451;
+    color: #151515;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-align: start;
+    position: fixed;
+    right:30px;
+    bottom: 30px;
+}
+
+.ic{
+    justify-content: end;
+    align-items: end;
+    display: flex;
+}
+.btn2 {
+    background: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #ffc451;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+        .text2{
+            font-size: 40px;
+        }
+        .text3{
+            font-size: 40px;
+        }
+        .text4{
+            font-size: 25px;
+        }
+        .text8 {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text7 {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
